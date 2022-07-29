@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d123e48d153f3eed703e2fb2ed818002",
+    "packages": [
+        {
+            "name": "megaoptim/megaoptim-php",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/megaoptim/megaoptim-php.git",
+                "reference": "e7e4f6de53510ef471ba4b0fc5d51a3b2a34cd1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/megaoptim/megaoptim-php/zipball/e7e4f6de53510ef471ba4b0fc5d51a3b2a34cd1e",
+                "reference": "e7e4f6de53510ef471ba4b0fc5d51a3b2a34cd1e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MegaOptim\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Darko Gjorgjijoski",
+                    "email": "dg@darkog.com"
+                }
+            ],
+            "description": "PHP sdk to utilize the MegaOptim.com image optimization API",
+            "time": "2019-11-23T15:40:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

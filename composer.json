@@ -1,0 +1,5 @@
+{
+    "require": {
+        "megaoptim/megaoptim-php": "^1.0"
+    }
+}

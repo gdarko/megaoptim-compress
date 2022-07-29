@@ -1,0 +1,40 @@
+[
+    {
+        "name": "megaoptim/megaoptim-php",
+        "version": "v1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/megaoptim/megaoptim-php.git",
+            "reference": "e7e4f6de53510ef471ba4b0fc5d51a3b2a34cd1e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/megaoptim/megaoptim-php/zipball/e7e4f6de53510ef471ba4b0fc5d51a3b2a34cd1e",
+            "reference": "e7e4f6de53510ef471ba4b0fc5d51a3b2a34cd1e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2019-11-23T15:40:07+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "MegaOptim\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Darko Gjorgjijoski",
+                "email": "dg@darkog.com"
+            }
+        ],
+        "description": "PHP sdk to utilize the MegaOptim.com image optimization API"
+    }
+]
